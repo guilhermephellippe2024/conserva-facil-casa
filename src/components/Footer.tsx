@@ -33,9 +33,6 @@ export function Footer({ angle }: FooterTypes) {
                         {angle === 'renda' ? 'Material culinário e educativo. Não constitui autorização para vender alimentos nem promessa de renda. Verifique requisitos sanitários e de rotulagem aplicáveis.' : 'Material culinário e educativo. Siga integralmente as orientações de segurança e os métodos de processamento de cada receita.'}
                     </p>
                 </div>
-                <p className="text-[10px] leading-[1.7] text-white/40">
-                    Antes de publicar, inclua os dados reais do vendedor, política de privacidade, termos e canal de atendimento de acordo com sua operação e a plataforma de checkout.
-                </p>
             </div>
         </footer>
     );
